@@ -1,37 +1,43 @@
 {
-	"name": "TurboJavaScript",
-	"description": "JavaScript (ES6) code snippets to speed up your programming",
-	"version": "0.1.0",
-	"displayName": "JavaScript (ES6) code snippets to speed up your programming",
-	"publisher": "Icehunter",
-	"icon": "images/javascript.png",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Icehunter/vscode-turbo-javascript"
-	},
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"contributes": {
-		"snippets": [{
-			"language": "javascript",
-			"path": "./snippets/snippets.json"
-		}, {
-			"language": "typescript",
-			"path": "./snippets/snippets.json"
-		}, {
-			"language": "javascriptreact",
-			"path": "./snippets/snippets.json"
-		}, {
-			"language": "typescriptreact",
-			"path": "./snippets/snippets.json"
-		}, {
-			"language": "html",
-			"path": "./snippets/snippets.json"
-		}]
-	}
+    "name": "TurboJavaScript",
+    "description": "JavaScript (ES6) code snippets to speed up your programming",
+    "version": "0.1.1",
+    "displayName": "TurboJavaScript",
+    "publisher": "Icehunter",
+    "icon": "images/javascript.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Icehunter/vscode-turbo-javascript"
+    },
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
 }
