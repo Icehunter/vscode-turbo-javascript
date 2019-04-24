@@ -1,7 +1,7 @@
 {
     "name": "TurboJavaScript",
     "description": "JavaScript (ES6) code snippets to speed up your programming",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "displayName": "TurboJavaScript",
     "publisher": "Icehunter",
     "icon": "images/javascript.png",
