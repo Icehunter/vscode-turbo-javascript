@@ -207,6 +207,14 @@
     "prefix": "ima",
     "body": "import ${1:*} as ${2:name} from '${3:module}';"
   },
+  "import module inline": {
+    "prefix": "imn",
+    "body": "import '${1:module}';"
+  },
+  "import module destructured": {
+    "prefix": "imd",
+    "body": "import { ${1:*} } from '${2:module}';"
+  },
   "event handler": {
     "prefix": "on",
     "body": "${1:emitter}.on('${2:event}', (${3:arguments}) => {\n\t${0}\n});"
@@ -222,6 +230,14 @@
   "method": {
     "prefix": "fn",
     "body": "const ${1:method} = (${2:arguments}) => {\n\t${0}\n}"
+  },
+  "destructured object": {
+    "prefix": "dob",
+    "body": "const { ${1:property} } = ${2:object};"
+  },
+  "destructured array": {
+    "prefix": "dar",
+    "body": "const [${1:property}] = ${2:array};"
   },
   "getter": {
     "prefix": "get",
